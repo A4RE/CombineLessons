@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5413F44C2BC08C160082C016 /* AnyCancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413F44B2BC08C160082C016 /* AnyCancelable.swift */; };
 		546DAEA32BC0183C0070E435 /* CombineLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DAEA22BC0183C0070E435 /* CombineLessonsApp.swift */; };
 		546DAEA52BC0183C0070E435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DAEA42BC0183C0070E435 /* ContentView.swift */; };
 		546DAEA72BC0183D0070E435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DAEA62BC0183D0070E435 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5413F44B2BC08C160082C016 /* AnyCancelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCancelable.swift; sourceTree = "<group>"; };
 		546DAE9F2BC0183C0070E435 /* CombineLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546DAEA22BC0183C0070E435 /* CombineLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLessonsApp.swift; sourceTree = "<group>"; };
 		546DAEA42BC0183C0070E435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5413F44A2BC08C030082C016 /* Lesson 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5413F44B2BC08C160082C016 /* AnyCancelable.swift */,
+			);
+			path = "Lesson 2";
+			sourceTree = "<group>";
+		};
 		546DAE962BC0183C0070E435 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		546DAEA12BC0183C0070E435 /* CombineLessons */ = {
 			isa = PBXGroup;
 			children = (
+				5413F44A2BC08C030082C016 /* Lesson 2 */,
 				546DAEB32BC020FB0070E435 /* Lesson 1 */,
 				546DAEA22BC0183C0070E435 /* CombineLessonsApp.swift */,
 				546DAEA42BC0183C0070E435 /* ContentView.swift */,
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5413F44C2BC08C160082C016 /* AnyCancelable.swift in Sources */,
 				546DAEB52BC0210E0070E435 /* FirstPipline.swift in Sources */,
 				546DAEA52BC0183C0070E435 /* ContentView.swift in Sources */,
 				546DAEA32BC0183C0070E435 /* CombineLessonsApp.swift in Sources */,

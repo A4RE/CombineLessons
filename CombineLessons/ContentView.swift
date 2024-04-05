@@ -16,6 +16,9 @@ struct ContentView: View {
                 NavigationLink(destination: FirstPipline()) {
                     Text("First Lesson")
                 }
+                NavigationLink(destination: AnyCancelable()) {
+                    Text("Second Lesson")
+                }
             }
         }
         .padding()
