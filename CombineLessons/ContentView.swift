@@ -19,6 +19,9 @@ struct ContentView: View {
                 NavigationLink(destination: AnyCancelable()) {
                     Text("Second Lesson")
                 }
+                NavigationLink(destination: Lesson_3()) {
+                    Text("Third Lesson")
+                }
             }
         }
         .padding()
