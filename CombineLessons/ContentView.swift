@@ -7,13 +7,16 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: FirstPipline()) {
+                    Text("First Lesson")
+                }
+            }
         }
         .padding()
     }

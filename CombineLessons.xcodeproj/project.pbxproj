@@ -11,6 +11,7 @@
 		546DAEA52BC0183C0070E435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DAEA42BC0183C0070E435 /* ContentView.swift */; };
 		546DAEA72BC0183D0070E435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DAEA62BC0183D0070E435 /* Assets.xcassets */; };
 		546DAEAA2BC0183D0070E435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DAEA92BC0183D0070E435 /* Preview Assets.xcassets */; };
+		546DAEB52BC0210E0070E435 /* FirstPipline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DAEB42BC0210E0070E435 /* FirstPipline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		546DAEA42BC0183C0070E435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		546DAEA62BC0183D0070E435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		546DAEA92BC0183D0070E435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		546DAEB42BC0210E0070E435 /* FirstPipline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		546DAEA12BC0183C0070E435 /* CombineLessons */ = {
 			isa = PBXGroup;
 			children = (
+				546DAEB32BC020FB0070E435 /* Lesson 1 */,
 				546DAEA22BC0183C0070E435 /* CombineLessonsApp.swift */,
 				546DAEA42BC0183C0070E435 /* ContentView.swift */,
 				546DAEA62BC0183D0070E435 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				546DAEA92BC0183D0070E435 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		546DAEB32BC020FB0070E435 /* Lesson 1 */ = {
+			isa = PBXGroup;
+			children = (
+				546DAEB42BC0210E0070E435 /* FirstPipline.swift */,
+			);
+			path = "Lesson 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DAEB52BC0210E0070E435 /* FirstPipline.swift in Sources */,
 				546DAEA52BC0183C0070E435 /* ContentView.swift in Sources */,
 				546DAEA32BC0183C0070E435 /* CombineLessonsApp.swift in Sources */,
 			);
