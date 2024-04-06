@@ -28,6 +28,9 @@ struct ContentView: View {
                 NavigationLink(destination: Lesson5()) {
                     Text("5 Lesson")
                 }
+                NavigationLink(destination: Lesson6()) {
+                    Text("6 Lesson")
+                }
             }
         }
         .padding()
