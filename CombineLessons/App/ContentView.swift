@@ -14,16 +14,19 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink(destination: FirstPipline()) {
-                    Text("First Lesson")
+                    Text("1 Lesson")
                 }
                 NavigationLink(destination: AnyCancelable()) {
-                    Text("Second Lesson")
+                    Text("2 Lesson")
                 }
                 NavigationLink(destination: Lesson_3()) {
-                    Text("Third Lesson")
+                    Text("3 Lesson")
                 }
                 NavigationLink(destination: Lesson4()) {
-                    Text("Fourth Lesson")
+                    Text("4 Lesson")
+                }
+                NavigationLink(destination: Lesson5()) {
+                    Text("5 Lesson")
                 }
             }
         }
